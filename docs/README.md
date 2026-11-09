@@ -1,12 +1,14 @@
 # OctoAcme Project Management Docs
 
-These documents describe OctoAcme's shared approach to initiating, planning, delivering, releasing, and improving cross-functional projects. Together they provide a consistent process for turning business needs into measurable outcomes, aligning the team around clear ownership, and creating repeatable delivery habits across product, engineering, and stakeholder groups.
+These documents describe OctoAcme's shared approach to initiating, planning, delivering, releasing, and improving cross-functional projects. Use this README as an entry point for onboarding and day-to-day reference; follow the linked guides for details at each stage of the project lifecycle.
 
 ## Project management processes at a glance
 
-OctoAcme begins by validating the business need, aligning stakeholders, and agreeing on measurable outcomes. Approved work is then planned into prioritized, estimable increments with clear acceptance criteria, milestones, dependencies, risks, and a Definition of Done. During execution, teams track work on a project board, coordinate through regular check-ins and reviews, and validate changes with automated and manual testing. Releases require acceptance criteria and CI/security checks to pass, release notes and rollback plans to be ready, and post-deployment verification. Risks and blockers are monitored and escalated through defined channels. After sprints, releases, milestones, or incidents, teams capture learnings in retrospectives and track a small set of improvement actions.
+OctoAcme starts by validating the business need, agreeing on measurable outcomes, identifying stakeholders, and deciding whether the work is ready to proceed. Approved initiatives move into planning, where teams define milestones, dependencies, risks, estimates, acceptance criteria, a prioritized backlog, and a Definition of Done. Delivery is iterative: work is tracked on a project board, and teams coordinate through standups, weekly delivery syncs, and sprint or milestone demos and reviews.
 
-Project Managers coordinate delivery, communication, and risk management; Product Managers define outcomes and priorities; developers build and validate the work; QA and testing functions verify quality and acceptance; and stakeholders contribute inputs, approval, and strategic direction. This creates a clear operating model for cross-functional work while helping the team maintain accountability, transparency, and a consistent customer focus.
+Quality is built into delivery through unit and applicable integration tests, CI checks and security scans, smoke tests for critical flows, and manual QA when needed. Before release, acceptance criteria must be met and release notes, rollback or mitigation plans, and smoke tests prepared. Teams deploy and verify in staging and production, communicate releases to stakeholders, and respond to critical issues through incident and rollback procedures.
+
+Project Managers coordinate delivery, schedules, risks, dependencies, and communications. Product Managers or Product Leads define outcomes and priorities; developers design, implement, test, and review changes; QA/testing validates quality and acceptance; and stakeholders provide input and approvals. Risks and blockers are monitored in a risk register and escalated from the team through the PM and Product Lead to the sponsor when appropriate. After sprints, releases, milestones, or incidents, teams run retrospectives and track a small number of owned improvement actions.
 
 ## Documents
 
@@ -19,4 +21,4 @@ Project Managers coordinate delivery, communication, and risk management; Produc
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — running retrospectives and tracking improvement actions.
 - [Roles and Personas](octoacme-roles-and-personas.md) — responsibilities, goals, and typical communication for developers, Product Managers, and Project Managers.
 
-Use this README as the entry point for onboarding and day-to-day reference. Keep the list synchronized as new process documents are added or renamed, and use the related files for the detailed guidance behind each stage of the project lifecycle.
+Keep this list synchronized as process documents are added or renamed, and use the linked files for detailed guidance.
